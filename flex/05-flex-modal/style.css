@@ -86,3 +86,7 @@ button.cancel {
 .modalContainer .text {
   padding: 6px;
 }
+
+.modalContainer .buttons {
+  padding: 6px;
+}
