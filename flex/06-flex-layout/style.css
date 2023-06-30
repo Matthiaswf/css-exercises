@@ -14,13 +14,29 @@ img {
   width: 600px;
 }
 
+a:link {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  color: #52565c;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+
+}
+
 button {
   font-family: Roboto, sans-serif;
   font-weight: bold;
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px 28px;
+  padding: 8px 16px;
 }
 
 input {
@@ -36,4 +52,21 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #eeeeee;
+  height: 40px;
 }
