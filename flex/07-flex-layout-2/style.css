@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 a:link {
@@ -25,6 +26,7 @@ a:link {
 }
 
 .footer {
+  margin-top: auto;
   height: 72px;
   background: #eee;
   color: darkmagenta;
@@ -48,4 +50,12 @@ a:link {
 
 .centerContainer {
   display: flex;
+  flex-grow: 1;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }
