@@ -49,9 +49,13 @@ ul {
 }
 
 .card {
+  height: 300px;
+  width: 300px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .centerContainer {
@@ -61,7 +65,9 @@ ul {
 
 .heroContainer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
