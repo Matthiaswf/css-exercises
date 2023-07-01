@@ -52,10 +52,12 @@ ul {
   height: 300px;
   width: 300px;
   border: 1px solid #eee;
+  font-weight: bold;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
 }
 
 .centerContainer {
