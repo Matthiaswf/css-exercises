@@ -6,6 +6,12 @@ body {
   flex-direction: column;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
